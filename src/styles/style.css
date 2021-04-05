@@ -1,0 +1,21 @@
+.header img{
+    box-sizing: border-box;
+    max-width: 120px;
+    width: 200px;
+    height: auto;
+    margin: var(--space-medium);
+}
+
+.header {
+    margin-bottom: var(--space-medium);
+    text-align: center;
+}
+
+@media (min-width: 550px){
+  .header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  text-align: left;
+  }
+}
