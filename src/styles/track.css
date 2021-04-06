@@ -1,0 +1,28 @@
+.track h1{
+    color: #8E3C29;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.track{
+    text-align: center;
+}
+
+.track img{
+    box-sizing: border-box;
+    max-width: 300px;
+    width: 280px;
+    height: auto;
+    margin: var(--space-small);    
+}
+
+.box img {
+    box-sizing: border-box;
+    max-width: 80px;
+    width: 60px;
+    height: auto;
+    margin: var(--space-small);
+    padding-top: var(--space-big);
+
+}

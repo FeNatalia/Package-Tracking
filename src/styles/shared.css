@@ -1,0 +1,41 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap");
+
+html{
+    display: block;
+    color: text;
+}
+
+body{
+    font-family: "Rubik", sans-serif; 
+    box-sizing: border-box;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: var(--space-bigger) var(--space-small) var(--space-big);
+    background-color: #FBFAE8;
+} 
+
+h1{
+    text-transform: uppercase;
+    color: #5A3D45;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: #5C2334;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #5C2334;
+}
+
+p{
+    font-size: 18px;
+    font-weight: normal;
+    color: #5C2334;
+}
